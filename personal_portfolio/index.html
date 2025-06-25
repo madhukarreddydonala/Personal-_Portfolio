@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DONALA MADHUKAR REDDY - Portfolio</title>
+    <meta name="description" content="DONALA MADHUKAR REDDY - Python Developer, Data Science Enthusiast, and Application Developer Portfolio">
+<meta name="keywords" content="Python, Data Science, Developer, Portfolio, Machine Learning, Web Development">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+  scroll-behavior: smooth;
+}
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -32,26 +40,26 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1>DONALA MADHUKAR REDDY</h1>
-                <h2 class="typing-text">ASPIRING SOFTWARE DATA APPLICATION TEACH ENTHUSIAST</h2>
-                <p>Passionate about creating innovative solutions and learning new technologies</p>
-                <div class="cta-buttons">
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="#projects" class="btn btn-secondary">View My Work</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="images/IMG_20230915_004411_281.jpg" alt="DONALA MADHUKAR REDDY">
-            </div>
-        </div>
-        <div class="hero-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
-    </section>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>DONALA MADHUKAR REDDY</h1>
+      <h2 class="typing-text"><span id="typed"></span></h2>
+      <p>Passionate about creating innovative solutions and learning new technologies</p>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <a href="#projects" class="btn btn-secondary">View My Work</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/IMG_20230915_004411_281.jpg" alt="DONALA MADHUKAR REDDY" class="home-profile-img">
+    </div>
+  </div>
+  <div class="hero-shapes">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+  </div>
+</section>
 
     <!-- About Section -->
     <section id="about" class="about">
@@ -83,7 +91,7 @@
                     </div>
                 </div>
                 <div class="about-image" data-aos="fade-left">
-                    <img src="C:\Users\madhu\OneDrive\Documents\Desktop\D MADHUKAR  learning materials\python\python sources for learing\projects\personal projects\personal_portfolio\images\IMG_20230915_004411_281.jpg" alt="DONALA MADHUKAR REDDY">
+                    <img src="images/IMG_20230915_004411_281.jpg" alt="DONALA MADHUKAR REDDY" class="about-profile-img">
                 </div>
             </div>
         </div>
@@ -200,6 +208,24 @@
                         </div>
                     </div>
                 </div>
+                <div class="project-card" data-aos="fade-up">
+  <div class="project-image">
+    <img src="images/myproject1.png" alt="My Project 1">
+  </div>
+  <div class="project-info">
+    <h3>Personal Portfolio Website</h3>
+    <p>Responsive portfolio built with HTML, CSS, and JavaScript. Features animated sections and a contact form.</p>
+    <div class="project-tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+    <div class="project-links">
+      <a href="https://github.com/madhukarreddydonala/portfolio" target="_blank"><i class="fab fa-github"></i> Code</a>
+      <a href="https://your-live-demo-link.com" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+    </div>
+  </div>
+</div>
             </div>
         </div>
     </section>
@@ -267,7 +293,7 @@
                         </div>
                     </div>
                 </div>
-                <form id="contactForm" class="contact-form" data-aos="fade-left">
+                <form id="contactForm" class="contact-form" action="https://formspree.io/f/yourformid" method="POST" data-aos="fade-left">
                     <div class="form-group">
                         <input type="text" id="name" name="name" required placeholder="Your Name">
                     </div>
@@ -285,21 +311,67 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 DONALA MADHUKAR REDDY. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#resume">Education</a>
-                <a href="#contact">Contact</a>
-            </div>
-        </div>
-    </footer>
+  <div class="container">
+    <p>&copy; 2024 DONALA MADHUKAR REDDY. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Education</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/madhukarreddydonala" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/madhukar-reddy-donala-488b35247/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="js/main.js"></script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const typedSpan = document.getElementById("typed");
+    const roles = [
+        "Python Developer",
+        "Data Science Enthusiast",
+        "Tech Enthusiast",
+        
+        "Web Developer",
+        "Problem Solver",
+        
+    ];
+    let roleIndex = 0;
+    let charIndex = 0;
+    let typing = true;
+
+    function typeRole() {
+        if (typing) {
+            if (charIndex < roles[roleIndex].length) {
+                typedSpan.textContent += roles[roleIndex][charIndex];
+                charIndex++;
+                setTimeout(typeRole, 80);
+            } else {
+                typing = false;
+                setTimeout(typeRole, 1200);
+            }
+        } else {
+            if (charIndex > 0) {
+                typedSpan.textContent = roles[roleIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(typeRole, 40);
+            } else {
+                typing = true;
+                roleIndex = (roleIndex + 1) % roles.length;
+                setTimeout(typeRole, 400);
+            }
+        }
+    }
+    typeRole();
+});
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
-</html> 
+</html>

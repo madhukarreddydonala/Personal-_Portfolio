@@ -21,4 +21,12 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
           branch: gh-pages
-          folder: personal_portfolio 
+          folder: personal_portfolio
+---
+<div class="project-card" data-aos="fade-up" data-aos-delay="100">
+  <!-- project content -->
+</div>
+<div class="project-card" data-aos="fade-up" data-aos-delay="200">
+  <!-- project content -->
+</div>
+<!-- Repeat for each card, increasing delay for a staggered effect -->
